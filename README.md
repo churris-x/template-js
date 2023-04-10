@@ -3,6 +3,10 @@
 A Template with editor configs, prettier and vscode settings for js projects
 
 ## How to use
+- Click "Use as template"
+- Download repo
+- Run `sh cleanup.sh` to remove example files and clean readme
+- Commit changes
 
 ## Configurations
 
