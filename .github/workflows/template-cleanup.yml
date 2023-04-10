@@ -60,8 +60,8 @@ jobs:
           " > LICENSE.md
 
       # remove this file
-      # - name: Remove action folder
-      #   run: rm -rf .github
+      - name: Remove action folder
+        run: rm -rf .github
 
       # save changed files
       - name: Commit changed files
