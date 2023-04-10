@@ -63,8 +63,10 @@ jobs:
       - name: Remove action folder
         run: rm -rf .github
 
-      # save changed files
-      - name: Commit changed files
-        uses: stefanzweifel/git-auto-commit-action@v4
+      # Commit changes
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
         with:
-          commit_message: "Setup repo"
+          author_name: ${{ github.repository_owner }}
+          author_email: ${{ github.repository_owner }}@users.noreply.github.com
+          message: 'Setup repo'
