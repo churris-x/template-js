@@ -3,7 +3,7 @@ run-name: Template cleanup files
 
 on:
   # run when created (repo generated from template)
-  create:
+  # create:
 
 # only a single job or workflow using the same concurrency group will run at a time
 concurrency:

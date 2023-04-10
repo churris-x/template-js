@@ -1,7 +1,8 @@
 #!/bin/bash
 
 echo "Removing examples"
-rm -v -f example.js example.jsx
+rm -fv example.js example.jsx
+rm -rfv .github
 
 echo "Creating new readme"
 pwd | xargs basename | xargs -I @ echo "# @" > README.md
