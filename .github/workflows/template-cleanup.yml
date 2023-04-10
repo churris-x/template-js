@@ -5,6 +5,8 @@ on:
   # run when created (repo generated from template)
   create:
 
+  workflow_dispatch:
+
 # only a single job or workflow using the same concurrency group will run at a time
 concurrency:
   group: template-cleanup
@@ -13,7 +15,7 @@ concurrency:
 jobs:
   template-cleanup:
     # ensure run only once, when repo generated
-    if: github.run_number == 1
+    # if: github.run_number == 1
 
     runs-on: ubuntu-latest
 
