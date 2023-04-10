@@ -67,7 +67,7 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
-          github-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           author_name: ${{ github.repository_owner }}
           author_email: ${{ github.repository_owner }}@users.noreply.github.com
           message: 'Setup repo'
