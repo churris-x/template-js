@@ -27,18 +27,12 @@ jobs:
         run: rm -f README.md LICENSE.md example.js example.jsx
 
        # add readme
-      - name: Add readme
-        run: echo "# ${{ github.repository }} ${{ github.repository_id }}" > README.md
+      - name: Add README
+        run: echo "# ${{ github.repository }}" > README.md
 
-      # add optional license
-      - name: Add mit license
+      # add license
+      - name: Add MIT license
         run: |
-          read -p 'Add MIT license? [y/n]: ' yn
-          case $yn in
-              [Yy]* ) break;;
-              * ) exit;;
-          esac
-
           echo "
    
           MIT License
