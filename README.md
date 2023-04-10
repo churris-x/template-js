@@ -3,15 +3,23 @@
 A Template with editor configs, prettier and vscode settings for js projects
 
 ## How to use
-- Click "Use as template"
-- Download repo
-- Open example files and save to test settings
-- When you are happy with how it looks, run `sh cleanup.sh` to remove example files and create a commit
-- git push
+
+-   Click "Use this template"
+-   Download repo
+-   Open example files and save to test settings
+-   When you are happy with how it looks, run `sh cleanup.sh` to remove example files and create a commit
+-   git push
+
+## FAQ
+
+### How to change tab width?
+
+Change the `indent_size` property on `.editorconfig` and the `tabWidth` on `.prettierrc`
 
 ## Configurations
 
 ### Git ignore - `.gitignore`
+
 ```sh
 # npm
 node_modules/
@@ -24,6 +32,7 @@ node_modules/
 ```
 
 ### Editor config - `.editorconfig`
+
 ```sh
 root = true
 
@@ -42,6 +51,7 @@ trim_trailing_whitespace = false
 ```
 
 ### Vscode - `.vscode/settings.json`
+
 ```js
 {
     "editor.formatOnSave": true,
@@ -51,8 +61,8 @@ trim_trailing_whitespace = false
 
 ```
 
-
 ### Prettier - `.prettierrc`
+
 ```js
 {
     //default
