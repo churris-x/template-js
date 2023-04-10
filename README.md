@@ -65,3 +65,15 @@ trim_trailing_whitespace = false
     "tabWidth": 4                 // 2
 }
 ```
+
+## Todo
+
+- [ ] Make github action that deletes unnecessary files
+    - example.js
+    - example.jsx
+    - README.md
+- [ ] Add license with user who forked the repo as the owner
+
+## License
+
+[MIT License](http://www.opensource.org/licenses/MIT)
