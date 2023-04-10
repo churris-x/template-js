@@ -5,8 +5,9 @@ A Template with editor configs, prettier and vscode settings for js projects
 ## How to use
 - Click "Use as template"
 - Download repo
-- Run `sh cleanup.sh` to remove example files and clean readme
-- Commit changes
+- Open example files and save to test settings
+- When you are happy with how it looks, run `sh cleanup.sh` to remove example files and create a commit
+- git push
 
 ## Configurations
 
@@ -69,14 +70,6 @@ trim_trailing_whitespace = false
     "tabWidth": 4                 // 2
 }
 ```
-
-## Todo
-
-- [ ] Make github action that deletes unnecessary files
-    - example.js
-    - example.jsx
-    - README.md
-- [ ] Add license with user who forked the repo as the owner
 
 ## License
 
